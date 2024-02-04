@@ -1,10 +1,5 @@
 name: Deploy pages
 on: push
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 
 jobs:
     deploy:
